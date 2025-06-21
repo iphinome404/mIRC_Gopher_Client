@@ -3,6 +3,7 @@ a gopher client script
 Version 0.9a
 
 Written by Kaitlin Murken
+
 What is gopher?
 ---------------
 
