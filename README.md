@@ -19,12 +19,12 @@ Unzip the files into your main mIRC directory. The files should end up in:
 Then, load the script by typing the following command in mIRC:  
 `//load -rs $mircdir $+ script\gopher\gopher.mrc`  
 
-Make sure you include both slashes (`//`), or better yet, copy and paste the command directly.
+Make sure you include both forward slashes (`//`), or better yet, copy and paste the command directly.
 
 ## Usage
 
 - `/gopher` — opens the client on a blank page.  
-- `/gopher server <port> <file to get>` — opens the browser and launches a Gopher request.  
+- `/gopher server <port> <file to get>` --opens the browser and launches a Gopher request.  
 - Click on any `gopher://` URL anywhere in mIRC to open it directly.
 
 The Gopher client works similarly to a web browser; all buttons and menus should be self-explanatory.
@@ -38,6 +38,14 @@ The Gopher client works similarly to a web browser; all buttons and menus should
 
 Please send complaints, suggestions, and bug reports to:  
 iphinome@gmail.com
+
+## About This Project
+
+During a point in the early 2000s, my grandmother was recovering from a heart attack. I spent nights within earshot so I could help if she needed anything. While she slept, I needed to stay quiet --and awake.
+
+With a spare desktop and mIRC as my chat client --and no one online to talk to in the middle of the night, I set out to find a way to alleviate the boredom. I’d seen some impressive mIRC scripts and wanted to learn how sockets worked. Gopher, being simple but not trivial, seemed like the perfect challenge.
+
+This project taught me the use of raw sockets and the benefits of working directly from RFCs.
 
 ## Notes
 
