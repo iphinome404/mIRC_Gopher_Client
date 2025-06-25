@@ -1,44 +1,44 @@
-Chibi Gopher for mIRC
-a gopher client script
+ # Chibi Gopher for mIRC
+
+A Gopher client script  
 Version 0.9a
 
 Written by Kaitlin Murken
 
-What is gopher?
----------------
+## What is Gopher?
 
-	Gopher is an early internet protocol, a precursor to the World Wide Web, designed for distributing, searching, and retrieving documents. There's a good introduction at  gopher://gopher.floodgap.com/gopher/welcome try pasting it into the gopher client and pressing "go" :)
+Gopher is an early internet protocol designed for distributing, searching, and retrieving documents. There's a good introduction at: gopher://gopher.floodgap.com/gopher/welcome 
 
+Try pasting the url into the Gopher client and pressing "go" :)
 
-Install 
--------
-	Unzip into your main mirc directory (files should end up
-	in ./script/gopher and .script/gopher/cache)
+## Installation
 
-	type //load -rs $mircdir $+ script\gopher\gopher.mrc
-	Make sure you have both //'s or even better just copy and
-        paste from here.
+Unzip the files into your main mIRC directory. The files should end up in:  
+`./script/gopher` and `./script/gopher/cache`
 
+Then, load the script by typing the following command in mIRC:  
+`//load -rs $mircdir $+ script\gopher\gopher.mrc`  
 
-Usage
------
-	/gopher (to open the client up on a blank page)
-	/gopher server <port> <file to get> to open the browser and
- launch	a gopher request.
-	or click on a gopher:// url anywhere in mIRC
+Make sure you include both slashes (`//`), or better yet, copy and paste the command directly.
 
+## Usage
 
-The gopher client is similar to a web browser, all the buttons and
-menus should be self-explanatory.
+- `/gopher` — opens the client on a blank page.  
+- `/gopher server <port> <file to get>` — opens the browser and launches a Gopher request.  
+- Click on any `gopher://` URL anywhere in mIRC to open it directly.
 
-Known Issues:
--------------
-	No support for cso phonebooks (someone send me an rfc?)
+The Gopher client works similarly to a web browser; all buttons and menus should be self-explanatory.
 
-	Sometimes it appears that the client has locked up, it
-	HAS NOT, it takes a long time to display long text files
-	line by line. a 130k text files takes about 3 minutes.
+## Known Issues
 
-Notess:
--------------
-	This script was written over 20 years ago and reflects the technology and scripting styles of that time. It remains functional and can still be used as a simple Gopher client within mIRC
+- No support for CSO phonebooks yet (if you have the RFC, please send it!).  
+- Large text files may take a while to load line by line (e.g., a 130k text file can take about 3 minutes).
+
+## Contact
+
+Please send complaints, suggestions, and bug reports to:  
+iphinome@gmail.com
+
+## Notes
+
+This script was written over 20 years ago and reflects the technology and scripting styles of that time. It remains functional and can still be used as a simple Gopher client within mIRC
