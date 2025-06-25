@@ -7,10 +7,7 @@ Written by Kaitlin Murken
 What is gopher?
 ---------------
 
-	There's a good introduction at 
-	gopher://gopher.floodgap.com/gopher/welcome try pasting it
-	into the gopher client and pressing "go" :)
-
+	Gopher is an early internet protocol, a precursor to the World Wide Web, designed for distributing, searching, and retrieving documents. There's a good introduction at  gopher://gopher.floodgap.com/gopher/welcome try pasting it into the gopher client and pressing "go" :)
 
 
 Install 
@@ -42,37 +39,6 @@ Known Issues:
 	HAS NOT, it takes a long time to display long text files
 	line by line. a 130k text files takes about 3 minutes.
 
- Gopher is an early internet protocol, a precursor to the World Wide Web, designed for distributing, searching, and retrieving documents.
-
-There's a good introduction at:
-gopher://gopher.floodgap.com/gopher/welcome
-Try pasting that into the client and pressing "go" :)
-
-Installation
-Unzip into your main mIRC directory — the files should end up in:
-./script/gopher and ./script/gopher/cache
-
-Load the script in mIRC by typing:
-//load -rs $mircdir $+ script\gopher\gopher.mrc
-Make sure to include both slashes. You can also copy and paste this line.
-
-Usage
-/gopher — Opens the client on a blank page.
-
-/gopher server <port> <file> — Opens the browser and launches a gopher request.
-
-Click on any gopher:// URL in mIRC to open it with this client.
-
-The gopher client is similar to a web browser; the buttons and menus are self-explanatory.
-
-Known Issues
-No support for CSO phonebooks (if you have an RFC, please share!).
-
-Long text files take time to display line-by-line (e.g., a 130k text file can take about 3 minutes).
-
-Contact:
---------
-	Send complaints, suggestions and bug reports to
-	iphinome@gmail.com
-
-Note: This script was written over 20 years ago and reflects the technology and scripting styles of that time. It remains functional and can still be used as a simple Gopher client within mIRC
+Notess:
+-------------
+	This script was written over 20 years ago and reflects the technology and scripting styles of that time. It remains functional and can still be used as a simple Gopher client within mIRC
