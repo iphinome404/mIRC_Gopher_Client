@@ -1,6 +1,7 @@
  # Chibi Gopher for mIRC
 
-A Gopher client script  
+A custom network RFC 1436 compliant client using mIRC scripting. Implements the Gopher protocol for retrieving and displaying data, including binary and text transfers, featuring GUI dialogs, and favorites management.
+
 Version 0.9a
 
 Written by Kaitlin Murken
@@ -28,6 +29,10 @@ Make sure you include both forward slashes (`//`), or better yet, copy and paste
 - Click on any `gopher://` URL anywhere in mIRC to open it directly.
 
 The Gopher client works similarly to a web browser; all buttons and menus should be self-explanatory.
+
+##Caching and Data Management
+
+The script implements caching of downloaded content to improve performance on repeated requests. It also uses a structured variable naming scheme to organize client state and data, effectively simulating object-oriented design within the limitations of mIRC scripting.
 
 ## Known Issues
 
