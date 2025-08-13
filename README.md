@@ -1,6 +1,6 @@
  # Chibi Gopher for mIRC
 
-A custom network RFC 1436 compliant client using mIRC scripting. Implements the Gopher protocol for retrieving and displaying data, including binary and text transfers, featuring GUI dialogs, and favorites management.
+A custom RFC 1436 compliant client using mIRC scripting. Implements the Gopher protocol for retrieving and displaying data, including binary and text transfers, featuring GUI dialogs, and favorites management.
 
 Version 0.9a
 
