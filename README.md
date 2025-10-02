@@ -1,6 +1,6 @@
  # Chibi Gopher for mIRC
 
-A custom RFC 1436 compliant client using mIRC scripting. Implements the Gopher protocol for retrieving and displaying data, including binary and text transfers, featuring GUI dialogs, and favorites management.
+A custom [RFC 1436](https://tools.ietf.org/html/rfc1436) compliant client using mIRC scripting. Implements the Gopher protocol for retrieving and displaying data, including binary and text transfers, featuring GUI dialogs, and favorites management.
 
 Version 0.9a
 
@@ -30,7 +30,7 @@ Make sure you include both forward slashes (`//`), or better yet, copy and paste
 
 The Gopher client works similarly to a web browser; all buttons and menus should be self-explanatory.
 
-##Caching and Data Management
+## Caching and Data Management
 
 The script implements caching of downloaded content to improve performance on repeated requests. It also uses a structured variable naming scheme to organize client state and data, effectively simulating object-oriented design within the limitations of mIRC scripting.
 
@@ -46,9 +46,9 @@ iphinome@gmail.com
 
 ## About This Project
 
-During a point in the early 2000s, my grandmother was recovering from a heart attack. I spent nights within earshot so I could help if she needed anything. While she slept, I needed to stay quiet --and awake.
+During a point in the early 2000s, my grandmother was recovering from a heart attack. I spent my nights within earshot so I could help if she needed anything. While she slept, I needed to stay quiet --and awake.
 
-With a spare desktop and mIRC as my chat client --and no one online to talk to in the middle of the night, I set out to find a way to alleviate the boredom. I’d seen some impressive mIRC scripts and wanted to learn how sockets worked. Gopher, being simple but not trivial, seemed like the perfect challenge.
+With a spare desktop, mIRC as my chat client --and no one online to talk to in the middle of the night, I set out to find a way to alleviate the boredom. I’d seen some impressive mIRC scripts and wanted to learn how sockets worked. Gopher, being simple but not trivial, seemed like the perfect challenge.
 
 This project taught me the use of raw sockets and the benefits of working directly from RFCs.
 
